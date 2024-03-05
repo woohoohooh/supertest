@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wp#_)9on+u-)aq=p=2hk*d@0a#&22u1u20)79ul=u^)b_uo_bm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
